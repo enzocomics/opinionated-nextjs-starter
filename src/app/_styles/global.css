@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-text: 245 245 245;
+		--color-base: 23 23 23;
+		--color-mid: 43 43 43;
+
+	}
+
+	.light {
+		--color-text: 23 23 23;
+		--color-base: 245 245 245;
+		--color-mid: 220 220 220;
+	}
+
+}
