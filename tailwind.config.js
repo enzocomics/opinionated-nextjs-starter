@@ -9,8 +9,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				copy: 'var(--font-copy)',
-				display: 'var(--font-display)',
+				copy: ['var(--font-copy)'],
+				display: ['var(--font-display)'],
 			},
 			backgroundImage: {
 				// "imgBackground" : "url('')"
