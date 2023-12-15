@@ -4,16 +4,29 @@
 
 @layer base {
 	:root {
-		--color-text: 245 245 245;
-		--color-base: 23 23 23;
-		--color-mid: 43 43 43;
+	/* Primary color variables*/
+		--color-primary: 0 100 255;
+		--color-secondary: 0 150 0;
+		--color-error: 255 0 0;
 
+	/* UI color Variables */
+		--color-base-1: 34 34 34;
+		--color-base-2: 17 17 17;
+		--color-base-3: 0 0 0;
+		--color-content: 255 255 255;
+		--color-invert: var(--color-base-3);
+
+	/* UI Defaults */
+		color: rgb(var(--color-content))
 	}
 
-	.light {
-		--color-text: 23 23 23;
-		--color-base: 245 245 245;
-		--color-mid: 220 220 220;
+	/* Light Theme */
+	[data-theme=light] {
+		--color-base-1: 255 255 255;
+		--color-base-2: 221 221 221;
+		--color-base-3: 207 207 207;
+		--color-content: 34 34 34;
+		--color-invert: var(--color-base-3);
 	}
 
 }

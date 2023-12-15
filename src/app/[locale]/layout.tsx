@@ -20,7 +20,7 @@ export default function RootLayout({
 	const locale: string = getCurrentLocale()
 	return (
 		<html lang={locale} className={`${copy.variable} ${display.variable}`} >
-			<body className="text-textColor bg-midColor antialiased">
+			<body className="bg-base-100 antialiased">
 				<main>
 					{children}
 				</main>
