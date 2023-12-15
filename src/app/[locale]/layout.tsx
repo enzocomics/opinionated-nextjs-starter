@@ -1,8 +1,8 @@
 /** ------------------------------------------------ **/
 import '@styles/global.css'
-import { copy, display } from '@styles/fonts'
-import { getCurrentLocale } from '@locales/server'
 import { ReactElement } from 'react'
+import { getCurrentLocale } from '@locales/server'
+import { copy, display } from '@styles/fonts'
 
 /** ------------------------------------------------ **
  * Root Layout **REQUIRED**
@@ -19,8 +19,8 @@ export default function RootLayout({
 }) {
 	const locale: string = getCurrentLocale()
 	return (
-		<html lang={locale} className={`${copy.variable} ${display.variable}`} >
-			<body className="bg-base-100 antialiased">
+		<html lang={locale} data-theme="dark" className={`${copy.variable} ${display.variable}`}>
+			<body className="antialiased bg-base-100">
 				<main>
 					{children}
 				</main>
