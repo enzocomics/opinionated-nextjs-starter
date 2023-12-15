@@ -1,6 +1,6 @@
 /** ------------------------------------------------ **/
 import '@styles/global.css'
-import { FontNoto, FontInter } from '@styles/fonts'
+import { copy, display } from '@styles/fonts'
 import { getCurrentLocale } from '@locales/server'
 import { ReactElement } from 'react'
 
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
 	const locale: string = getCurrentLocale()
 	return (
-		<html lang={locale} className={`${FontNoto.variable} ${FontInter.variable}`} >
+		<html lang={locale} className={`${copy.variable} ${display.variable}`} >
 			<body className="text-textColor bg-midColor antialiased">
 				<main>
 					{children}

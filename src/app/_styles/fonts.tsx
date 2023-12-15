@@ -6,22 +6,22 @@ import { Noto_Sans, Inter } from 'next/font/google'
  * Webfont Variables
  ** ------------------------------------------------ **/
 
-const FontNoto: NextFontWithVariable = Noto_Sans({
+const copy: NextFontWithVariable = Noto_Sans({
 	weight: ['400', '700'],
 	style: ['normal', 'italic'],
 	subsets: ['latin', 'latin-ext'],
 	display: 'swap',
-	variable: '--font-noto',
+	variable: '--font-copy',
 })
 
-const FontInter: NextFontWithVariable = Inter({
+const display: NextFontWithVariable = Inter({
 	weight: ['400', '700'],
 	style: ['normal'],
 	subsets: ['latin', 'latin-ext'],
 	display: 'swap',
-	variable: '--font-Inter',
+	variable: '--font-display',
 })
 
 /** ------------------------------------------------ **/
 
-export { FontNoto, FontInter }
+export { copy, display }
