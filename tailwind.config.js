@@ -34,8 +34,8 @@ module.exports = {
 	},
 	plugins: [
 		plugin(function ({ addVariant }) {
-			// Light mode theme
-			addVariant('light', 'html.light &')
+		// Light mode theme
+			addVariant('light', 'html[data-theme=light] &')
 		})
 	],
 }
