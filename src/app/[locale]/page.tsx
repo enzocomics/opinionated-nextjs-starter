@@ -11,10 +11,10 @@ export default async function Homepage() {
 
 	return (
 		<>
-			<h1 className="font-noto text-8xl font-bold">
+			<h1 className="font-display text-8xl font-bold">
 				{t('welcome')}
 			</h1>
-			<div className="font-inter">
+			<div className="font-copy">
 				{t('message')}
 			</div>
 		</>
