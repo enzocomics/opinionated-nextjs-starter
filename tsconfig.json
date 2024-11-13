@@ -1,20 +1,6 @@
 {
   "compilerOptions": {
-	"baseUrl": "src/.",
-	"paths": {
-		"@/*": [
-			"*"
-		],
-		"@locales/*": [
-			"locales/*"
-		],
-		"@ui/*": [
-			"app/[locale]/_ui/*"
-		],
-		"@styles/*": [
-			"app/_styles/*"
-		],
-	},
+    "target": "ES2017",
     "lib": [
       "dom",
       "dom.iterable",
@@ -22,11 +8,11 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "noEmit": true,
     "incremental": true,
-    "esModuleInterop": true,
     "module": "esnext",
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,

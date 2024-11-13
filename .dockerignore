@@ -1,9 +1,0 @@
-*.git
-*.env
-*.env.*
-*.envtemplate
-*.vs
-*.code-workspace
-*Dockerfile*
-*docker-compose*
-node_modules
